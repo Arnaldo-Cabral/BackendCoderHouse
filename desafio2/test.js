@@ -20,8 +20,8 @@ async function test(){
     //let deleteById = await nuevoProducto.deleteById(4);
     console.log ('eliminaste el Id 4')
 
-    await nuevoProducto.deleteAll();
-    console.log (`eliminsate todos los productos`)
+    /* await nuevoProducto.deleteAll();
+    console.log (`eliminsate todos los productos`) */
     
 }
 
