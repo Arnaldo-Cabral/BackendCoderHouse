@@ -21,9 +21,9 @@ async function test(){
     console.log ('eliminaste el Id 4')
 
     /* await nuevoProducto.deleteAll();
-    console.log (`eliminsate todos los productos`) */
+    console.log (`eliminsate todos los productos`)
     
-}
+ */}
 
 test()
 
