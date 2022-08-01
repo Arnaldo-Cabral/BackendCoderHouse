@@ -2,7 +2,7 @@ const http = require('http');
 //servidor nativo 
 // de acuerdo a la hora diga que es
 const getMensaje = () => {
-   const horaActual = new Date().getHours();//lee la hora de mi pc
+   const horaActual = new Date().getHours();//lee la hora de mi pc y lo muestra
    if (horaActual >= 6 && horaActual <= 12){
     return ('Buenos días');
    } else if (horaActual > 12 && horaActual <= 19){
