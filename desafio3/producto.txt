@@ -1,1 +1,1 @@
-[{"title":"Auto","price":123,"thumbnail":"https://google.com","id":1},{"title":"Moto","price":123,"thumbnail":"https://google.com","id":2},{"title":"Lancha","price":123,"thumbnail":"https://google.com","id":3}]
+[{"title":"Automovil","price":123,"thumbnail":"https://google.com","id":1},{"title":"Motocicleta","price":123,"thumbnail":"https://google.com","id":2},{"title":"Lancha","price":123,"thumbnail":"https://google.com","id":3}]
