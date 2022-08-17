@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Hamburgesa",
+    "price": 600,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/street-food-and-food-trucker-1/64/hamburger-fast-food-patty-bread-128.png",
+    "id": 1
+  },
+  {
+    "title": "Mochila",
+    "price": 1020,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-128.png",
+    "id": 2
+  }
+]

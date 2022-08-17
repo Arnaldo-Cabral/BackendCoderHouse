@@ -1,0 +1,8 @@
+[
+  {
+    "title": "Globo  terraqueo",
+    "price": 85,
+    "thumbnail": "https://cdn3.iconfinder.com/data/icons/education-209/64/globe-earth-geograhy-planet-school-128.png",
+    "id": 1
+  }
+]
