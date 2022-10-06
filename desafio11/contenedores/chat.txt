@@ -1,0 +1,1 @@
+[{"author":{"id":"lionel@messi.com","nombre":"lionel","apellido":"messi","edad":"34","alias":"lio","avatar":"https://cdn3.iconfinder.com/data/icons/business-avatar-1/512/8_avatar-128.png"},"text":"catar 2022","date":"2/10/2022 20:21:48"}]
