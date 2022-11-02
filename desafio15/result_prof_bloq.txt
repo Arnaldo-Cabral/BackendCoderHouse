@@ -1,0 +1,81 @@
+Statistical profiling result from bloq-v8.log, (360573 ticks, 1 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  357479   99.1%          C:\WINDOWS\SYSTEM32\ntdll.dll
+   2885    0.8%          C:\Program Files\nodejs\node.exe
+     90    0.0%          C:\WINDOWS\System32\KERNELBASE.dll
+     26    0.0%          C:\WINDOWS\System32\KERNEL32.DLL
+      1    0.0%          C:\WINDOWS\system32\mswsock.dll
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+     19    0.0%   20.7%  Function: ^processTimers node:internal/timers:487:25
+     10    0.0%   10.9%  LazyCompile: *deserializeObject C:\Users\arnal\Desktop\desafio15\node_modules\bson\lib\parser\deserializer.js:65:27
+      7    0.0%    7.6%  LazyCompile: *resolve node:path:158:10
+      7    0.0%    7.6%  LazyCompile: *listOnTimeout node:internal/timers:507:25
+      2    0.0%    2.2%  LazyCompile: *slice node:buffer:594:12
+      2    0.0%    2.2%  LazyCompile: *now C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\utils.js:623:13
+      2    0.0%    2.2%  LazyCompile: *measureRoundTripTime C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\sdam\monitor.js:280:30
+      2    0.0%    2.2%  Function: ^measureRoundTripTime C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\sdam\monitor.js:280:30
+      2    0.0%    2.2%  Function: ^listOnTimeout node:internal/timers:507:25
+      2    0.0%    2.2%  Function: ^calculateDurationInMs C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\utils.js:629:31
+      1    0.0%    1.1%  LazyCompile: *write C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\cmap\connection.js:513:15
+      1    0.0%    1.1%  LazyCompile: *toNamespacedPath node:path:618:19
+      1    0.0%    1.1%  LazyCompile: *serializeBinary C:\Users\arnal\Desktop\desafio15\node_modules\bson\lib\parser\serializer.js:459:25
+      1    0.0%    1.1%  LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
+      1    0.0%    1.1%  LazyCompile: *readInt32LE node:internal/buffer:385:21
+      1    0.0%    1.1%  LazyCompile: *processTicksAndRejections node:internal/process/task_queues:68:35
+      1    0.0%    1.1%  LazyCompile: *processIncomingData C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\cmap\message_stream.js:79:29
+      1    0.0%    1.1%  LazyCompile: *hasHooks node:internal/async_hooks:471:18
+      1    0.0%    1.1%  LazyCompile: *concat node:buffer:536:32
+      1    0.0%    1.1%  LazyCompile: *command C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\cmap\connection.js:247:12
+      1    0.0%    1.1%  LazyCompile: *afterWriteTick node:internal/streams/writable:482:24
+      1    0.0%    1.1%  LazyCompile: *ServerDescription C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\sdam\server_description.js:34:16
+      1    0.0%    1.1%  LazyCompile: *Readable.read node:internal/streams/readable:394:35
+      1    0.0%    1.1%  LazyCompile: *Module._resolveLookupPaths node:internal/modules/cjs/loader:667:38
+      1    0.0%    1.1%  LazyCompile: *Module._compile node:internal/modules/cjs/loader:1059:37
+      1    0.0%    1.1%  LazyCompile: *Long.negate C:\Users\arnal\Desktop\desafio15\node_modules\bson\lib\long.js:612:38
+      1    0.0%    1.1%  LazyCompile: *Long.fromNumber C:\Users\arnal\Desktop\desafio15\node_modules\bson\lib\long.js:130:32
+      1    0.0%    1.1%  LazyCompile: *Long C:\Users\arnal\Desktop\desafio15\node_modules\bson\lib\long.js:58:18
+      1    0.0%    1.1%  Function: ^tryReadSync node:fs:429:21
+      1    0.0%    1.1%  Function: ^subarray node:buffer:1116:46
+      1    0.0%    1.1%  Function: ^readDoubleForwards node:internal/buffer:559:28
+      1    0.0%    1.1%  Function: ^openSync node:fs:576:18
+      1    0.0%    1.1%  Function: ^ondata node:internal/streams/readable:752:18
+      1    0.0%    1.1%  Function: ^maxWireVersion C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\utils.js:448:24
+      1    0.0%    1.1%  Function: ^isFileType node:fs:205:20
+      1    0.0%    1.1%  Function: ^initHooksExist node:internal/async_hooks:479:24
+      1    0.0%    1.1%  Function: ^get node:internal/streams/duplex:94:8
+      1    0.0%    1.1%  Function: ^Timestamp C:\Users\arnal\Desktop\desafio15\node_modules\bson\lib\timestamp.js:26:23
+      1    0.0%    1.1%  Function: ^Timeout node:internal/timers:167:17
+      1    0.0%    1.1%  Function: ^Readable.push node:internal/streams/readable:227:35
+      1    0.0%    1.1%  Function: ^Readable node:internal/streams/readable:181:18
+      1    0.0%    1.1%  Function: ^ObjectId C:\Users\arnal\Desktop\desafio15\node_modules\bson\lib\objectid.js:23:22
+      1    0.0%    1.1%  Function: ^Module._compile node:internal/modules/cjs/loader:1059:37
+      1    0.0%    1.1%  Function: ^<anonymous> node:internal/validators:222:42
+      1    0.0%    1.1%  Function: ^<anonymous> C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\sdam\server.js:62:55
+      1    0.0%    1.1%  Function: ^<anonymous> C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\operations\connect.js:52:28
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+     91    0.0%   98.9%  JavaScript
+      0    0.0%    0.0%  C++
+     28    0.0%   30.4%  GC
+  360481  100.0%          Shared libraries
+      1    0.0%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  357479   99.1%  C:\WINDOWS\SYSTEM32\ntdll.dll
+

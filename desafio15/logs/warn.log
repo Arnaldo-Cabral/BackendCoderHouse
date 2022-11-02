@@ -1,0 +1,42 @@
+[2022-10-31T22:35:43.747] [WARN] default - Ruta / método GET no implementados
+[2022-10-31T22:35:43.915] [WARN] default - Ruta /favicon.ico método GET no implementados
+[2022-10-31T22:44:44.773] [WARN] default - Ruta /* método GET no implementados
+[2022-10-31T22:45:32.198] [WARN] default - Ruta /info método GET no implementados
+[2022-10-31T22:46:02.024] [WARN] default - Ruta /productos-test método GET no implementados
+[2022-10-31T22:46:27.344] [WARN] default - Ruta /logout método GET no implementados
+[2022-10-31T22:46:47.642] [WARN] default - Ruta /signin método GET no implementados
+[2022-10-31T22:47:01.623] [WARN] default - Ruta /signup método GET no implementados
+[2022-10-31T22:55:18.719] [WARN] default - Ruta /productos método GET no implementados
+[2022-10-31T22:56:02.727] [WARN] default - Ruta /info método GET no implementados
+[2022-10-31T23:07:30.306] [WARN] default - Ruta /*info método GET no implementados
+[2022-10-31T23:07:38.755] [WARN] default - Ruta /*/info método GET no implementados
+[2022-10-31T23:10:09.441] [WARN] default - Ruta /api/* método GET no implementados
+[2022-10-31T23:11:00.397] [WARN] default - Ruta /api/public método GET no implementados
+[2022-10-31T23:11:16.105] [WARN] default - Ruta /api/.public método GET no implementados
+[2022-10-31T23:11:22.828] [WARN] default - Ruta /api/public método GET no implementados
+[2022-10-31T23:12:13.782] [WARN] default - Ruta /api/* método GET no implementados
+[2022-10-31T23:12:38.019] [WARN] default - Ruta /app/* método GET no implementados
+[2022-10-31T23:13:02.579] [WARN] default - Ruta /api/productos método GET no implementados
+[2022-10-31T23:13:51.586] [WARN] default - Ruta /productos método GET no implementados
+[2022-10-31T23:14:53.254] [ERROR] default - Error: No hay productos
+    at C:\Users\arnal\Desktop\desafio15\server.js:204:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-31T23:14:53.260] [ERROR] default - No hay productos
+[2022-10-31T23:14:56.882] [WARN] default - Ruta / método GET no implementados
+[2022-10-31T23:17:10.656] [ERROR] default - Error: No hay productos
+    at C:\Users\arnal\Desktop\desafio15\server.js:204:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-31T23:17:10.658] [ERROR] default - No hay productos
+[2022-10-31T23:17:36.139] [WARN] default - Ruta / método GET no implementados
+[2022-10-31T23:19:07.446] [ERROR] default - Error: No hay productos
+    at C:\Users\arnal\Desktop\desafio15\server.js:204:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-31T23:19:07.449] [ERROR] default - No hay productos
+[2022-10-31T23:19:11.218] [WARN] default - Ruta / método GET no implementados
+[2022-11-01T20:47:15.425] [WARN] default - Ruta /newUser?username=alex&password=123 método GET no implementados
+[2022-11-01T20:58:41.196] [WARN] default - Ruta / método GET no implementados
+[2022-11-01T20:58:41.259] [WARN] default - Ruta /favicon.ico método GET no implementados
+[2022-11-01T21:04:36.833] [WARN] default - Ruta /api/signup/newUser?username=alex&password=123 método GET no implementados
+[2022-11-01T21:05:23.111] [WARN] default - Ruta /api/newUser?username=alex&password=123 método GET no implementados
+[2022-11-01T21:06:15.205] [WARN] default - Ruta /signup/newUser?username=alex&password=123 método GET no implementados

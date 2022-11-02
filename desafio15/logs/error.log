@@ -1,0 +1,13 @@
+[2022-10-31T23:14:53.254] [ERROR] default - Error: No hay productos
+    at C:\Users\arnal\Desktop\desafio15\server.js:204:13
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-31T23:14:53.260] [ERROR] default - No hay productos
+[2022-10-31T23:17:10.656] [ERROR] default - Error: No hay productos
+    at C:\Users\arnal\Desktop\desafio15\server.js:204:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-31T23:17:10.658] [ERROR] default - No hay productos
+[2022-10-31T23:19:07.446] [ERROR] default - Error: No hay productos
+    at C:\Users\arnal\Desktop\desafio15\server.js:204:13
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[2022-10-31T23:19:07.449] [ERROR] default - No hay productos

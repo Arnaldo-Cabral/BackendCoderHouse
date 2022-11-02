@@ -1,0 +1,40 @@
+Statistical profiling result from nobloq-v8.log, (32782 ticks, 0 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+  32491   99.1%          C:\WINDOWS\SYSTEM32\ntdll.dll
+    276    0.8%          C:\Program Files\nodejs\node.exe
+      5    0.0%          C:\WINDOWS\System32\KERNELBASE.dll
+      3    0.0%          C:\WINDOWS\System32\KERNEL32.DLL
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      1    0.0%   14.3%  LazyCompile: *resolve node:path:158:10
+      1    0.0%   14.3%  LazyCompile: *readPackageScope node:internal/modules/cjs/loader:321:26
+      1    0.0%   14.3%  Function: ^updateServers C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\sdam\topology.js:543:23
+      1    0.0%   14.3%  Function: ^update C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\sdam\topology_description.js:139:11
+      1    0.0%   14.3%  Function: ^parse C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\cmap\commands.js:577:10
+      1    0.0%   14.3%  Function: ^measureRoundTripTime C:\Users\arnal\Desktop\desafio15\node_modules\mongodb\lib\sdam\monitor.js:280:30
+      1    0.0%   14.3%  Function: ^FastBuffer node:internal/buffer:958:14
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+      7    0.0%  100.0%  JavaScript
+      0    0.0%    0.0%  C++
+      4    0.0%   57.1%  GC
+  32775  100.0%          Shared libraries
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+  32491   99.1%  C:\WINDOWS\SYSTEM32\ntdll.dll
+
