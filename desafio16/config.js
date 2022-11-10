@@ -6,7 +6,7 @@ const PORT = yargs.alias({
   m: 'modo'
 })
 .default({
-  puerto: 8080,
+  puerto: process.env.PORT || 8080,
   modo: 'FORK'
 }).argv
 
