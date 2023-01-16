@@ -1,9 +1,5 @@
 # Servidor en Deno
 
-Formato: link a un repositorio en Github con el proyecto cargado.
-
-Sugerencia: no incluir los node_modules
-
 ## Consigna:
 
 * Crear un servidor que utilice el módulo http servest y genere la vista con React render.
